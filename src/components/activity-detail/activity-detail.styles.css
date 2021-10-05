@@ -1,0 +1,65 @@
+.activity-container {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin: 15px 0;
+    padding: 0 15px 5px 15px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transition: transform 0.25s ease-out;
+    -webkit-transition: transform 0.25s ease-out;
+    -moz-transition: transform 0.25s ease-out;
+    -ms-transition: transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+   
+
+}
+  
+  .activity-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .call-container {
+    display: flex;
+  }
+
+  .date-container {
+    display: flex;
+  }
+
+ .date {
+   flex: 70%;
+   font-size: 12px;
+   
+ }
+
+ .time {
+   flex: 5%;
+ }
+
+
+  img {
+    width: 30px;
+    height: 15px;
+  }
+
+  .archive-call{
+    background-color: #dddddd;
+    border-radius: 15px;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 12px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    float: right;
+}
+
+
+  
